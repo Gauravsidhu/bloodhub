@@ -1,0 +1,728 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+#imageContainer {
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+  position: relative;
+
+}
+
+#mainImage {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: opacity 1s;
+}
+
+#mainImage.visible {
+  opacity: 1;
+}
+
+#mainImage.hidden {
+  opacity: 0;
+}
+
+div#login-page {
+  background: rgb(222 212 198);
+}
+
+h2.FarmFocusOnline {
+  text-align: center;
+  padding-top: 2%;
+  font-size: 40px;
+  color: #333;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+p.login {
+  font-size: 18px;
+  font-weight: 300;
+  padding-top: 1%;
+  text-align: center;
+  color: #666;
+  line-height: 1.6;
+}
+
+p.login:hover {
+  color: #ff5733;
+  cursor: pointer;
+  transform: scale(1.05);
+  transition: color 0.3s, transform 0.3s;
+}
+
+.login-form {
+  margin-left: 10%;
+  margin-top: 4%;
+}
+
+input#exampleInputEmail1 {
+  width: 89%;
+  height: 45px;
+}
+
+input#exampleInputPassword1 {
+  width: 89%;
+  height: 45px;
+}
+
+.login-btn {
+  margin-left: 38%;
+  padding-top: 4%;
+}
+
+.eye-icon {
+  margin-left: 84%;
+  margin-top: -5%;
+}
+
+button.login-button {
+  background-color: cornsilk;
+  width: 20%;
+  height: 38px;
+  border: none;
+  border-radius: 50px;
+}
+
+button.login-button:hover {
+  background-color: burlywood;
+}
+
+p.New.here\? {
+  font-size: 18px;
+  font-weight: 400;
+  color: #666;
+}
+
+.new-here {
+  padding-top: 20px;
+  margin-left: 20px;
+  /* border-top: 2px solid #ccc;
+  border-bottom: 2px solid #ccc; */
+}
+
+a.click-here {
+  text-decoration: none;
+  color: #ff5733;
+  font-weight: 500;
+  transition: color 0.3s ease-in-out;
+}
+
+a.click-here:hover {
+  color: #d12800;
+}
+
+p.click-here-a {
+  font-size: 18px;
+  font-weight: 300;
+  padding-top: 1%;
+  margin-left: 20px;
+  color: #666;
+}
+
+
+.welcome-message {
+  text-align: center;
+  margin-top: 1%;
+  transition: transform 0.3s ease-in-out;
+}
+
+.welcome-message:hover {
+  transform: scale(1.1);
+  color: #ff5733;
+}
+
+p.Discover,
+p.Fill {
+  font-size: 18px;
+  font-weight: 400;
+  transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+p.Discover:hover,
+p.Fill:hover {
+  color: #ff5733;
+  transform: translateY(-3px);
+}
+
+body {
+  overflow-x: hidden;
+}
+
+input#fname {
+  margin-top: 1%;
+  height: 45px;
+  margin-left: 21%;
+  width: 60%;
+
+}
+
+input#lname {
+  margin-top: 3%;
+  height: 45px;
+  margin-left: 21%;
+  width: 60%;
+}
+
+input#mail {
+  margin-top: 3%;
+  height: 45px;
+  margin-left: 21%;
+  width: 60%;
+}
+
+input#pswd {
+  margin-top: 3%;
+  height: 45px;
+  margin-left: 21%;
+  width: 60%;
+}
+
+input#add {
+  margin-top: 4%;
+  height: 45px;
+  margin-left: 21%;
+  width: 60%;
+}
+
+.sign-icon {
+  margin-left: 122%;
+  margin-top: -34px;
+}
+
+.sign-icon {
+  margin-left: 79%;
+  margin-top: -34px;
+}
+
+.sign-btn {
+  margin-left: 45%;
+  margin-top: 26px;
+}
+
+body#sign {
+  background-color: #d4bdb5;
+}
+
+.navbar {
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #ddd;
+  border-radius: 0;
+}
+
+.navbar-brand {
+  color: #333;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+  color: #333;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ff5733;
+}
+
+ul.navbar-nav.me-auto.mb-2.mb-lg-0 {
+  margin: 8px 0px 0px 12%;
+}
+
+p.dashboard_home {
+  margin: -6px 0px 0px 64px;
+}
+
+p.dashboard_blood {
+  margin: -6px 0px 0px 90px;
+}
+
+p.dashboard_requests {
+  margin: -6px 0px 0px 105px;
+}
+
+p.dashboard_view {
+  margin: -6px 0px 0px 105px;
+}
+
+p.dashboard_contact {
+  margin: -6px 0px 0px 105px;
+}
+
+p.dashboard_name {
+  margin: -6px 0px 0px 105px;
+}
+
+a.navbar-brand {
+  margin-top: -5px;
+}
+
+.dashboard-heading {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.dashboard-heading h2 {
+  font-size: 36px;
+  color: #2c3e50;
+}
+
+.dashboard-content {
+  padding: 20px;
+  background-color: #ecf0f1;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.blood-info {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #34495e;
+  margin-bottom: 15px;
+}
+
+.blood-info:hover {
+  cursor: pointer;
+  color: gray;
+}
+
+video#dashboardVideo {
+  width: 105%;
+}
+
+.footer-journey {
+  text-align: center;
+  padding-top: 1%;
+}
+
+h4.footer-journey {
+  font-size: 35px;
+  font-weight: 400;
+}
+
+p.embark {
+  font-size: 18px;
+  font-weight: 400;
+  padding-top: 7px;
+}
+
+img.facebook-logo {
+  width: 20px;
+}
+
+img.insta-logo {
+  width: 20px;
+}
+
+img.linkdin-logo {
+  width: 20px;
+}
+
+.footer-icons {
+  margin-left: -3%;
+}
+
+button.btn.btn-outline-primary {
+  margin-left: 2%;
+  border-radius: 23px;
+}
+
+.footer-copyright {
+  margin: 1%;
+}
+
+.blood-info-heading {
+  text-align: center;
+  margin: 12px;
+}
+
+h4.On.this.page {
+  font-size: 26px;
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 20px;
+  /* text-transform: uppercase; */
+  transform: scale(1.05);
+  letter-spacing: 1px;
+}
+
+h4.On.this.page:hover {
+  color: #ff5733;
+}
+
+p.To.submit {
+  font-size: 18px;
+  color: #666;
+}
+
+p.To.submit:hover {
+  color: #555;
+}
+
+.blood-info-submit {
+  text-align: center;
+}
+
+select#blood_type {
+  width: 50%;
+  margin: 1% 0px 0px 25%;
+  height: 49px;
+}
+
+label.blood-info-label {
+  margin: 1% 0px 13px 25%;
+}
+
+button.blood-info-btn.btn.btn-outline-info {
+  width: 9%;
+  height: 38px;
+  border-radius: 15px;
+  margin: 2% 0px 0px 45%;
+}
+
+.form-floating {
+  margin: 2% 0px 0px 25%;
+}
+
+h2.Blood.Samples {
+  font-size: 32px;
+  font-weight: 400;
+  font-family: fangsong;
+  text-align: center;
+  margin: 1%;
+  color: #333;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.blood-sample {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: calc(58.33% - 0px);
+  background-color: #f9f9f9;
+}
+
+.blood-type {
+  color: #007bff;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.hospital-name,
+.location {
+  margin-top: 10px;
+  color: #666;
+}
+
+.request-btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.request-btn:hover {
+  background-color: #0056b3;
+}
+
+.blood-sample-details {
+  margin: 1% 0px 0px 25%;
+}
+
+select#user-roles {
+  margin-top: 3%;
+  height: 45px;
+  margin-left: 21%;
+  width: 60%;
+}
+
+input#first-a {
+  width: 46%;
+  height: 43px;
+  margin-left: 27%;
+  margin-top: 2%;
+}
+
+input#last-a {
+  width: 46%;
+  height: 43px;
+  margin-left: 27%;
+  margin-top: 2%;
+}
+
+input#type-a {
+  width: 46%;
+  height: 43px;
+  margin-left: 27%;
+  margin-top: 2%;
+}
+
+input#number-a {
+  width: 46%;
+  height: 43px;
+  margin-left: 27%;
+  margin-top: 2%;
+}
+
+.a-btn {
+  margin: 1% 0px 0px 26%;
+}
+
+button.btn.btn-primary.a-btn {
+  width: 111px;
+  height: 38px;
+  border-radius: 50px;
+}
+
+.contact-heading {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.contact-heading {
+  text-align: center;
+  margin-bottom: 23px;
+  margin: 1%;
+}
+
+
+.contact-content {
+  text-align: center;
+  margin-bottom: -8px;
+}
+
+.contact-content p.If {
+  color: #666;
+  font-size: 18px;
+
+}
+
+.contact-form {
+  margin: -2% 0px 0px 0px;
+}
+
+input.form-control.contact {
+  width: 62%;
+  height: 52px;
+  margin: 3% 0px 0px 21%;
+}
+
+.row#contact-row {
+  background: #abbac8;
+}
+
+button.btn.btn-primary.contact-btn {
+  width: 10%;
+  height: 50px;
+  border-radius: 50px;
+  margin: 3% 0px 25px 46%;
+
+}
+
+@media screen and (min-width: 360px) and (max-width: 768px) {
+  .eye-icon {
+    margin-left: 78%;
+    margin-top: -11%;
+  }
+
+  button.login-button {
+    background-color: cornsilk;
+    width: 32%;
+    height: 39px;
+    border: none;
+    border-radius: 50px;
+    margin-left: -4%;
+  }
+
+  p.click-here-a {
+    font-size: 18px;
+    font-weight: 300;
+    padding-top: 1%;
+    margin-left: 18%;
+    color: #666;
+  }
+
+  .footer-copyright {
+    margin: 4%;
+  }
+
+  p.Discover,
+  p.Fill {
+    font-size: 18px;
+    font-weight: 400;
+    transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+    margin-top: 6%;
+  }
+
+  input#lname {
+    margin-top: 6%;
+    height: 45px;
+    margin-left: 21%;
+    width: 60%;
+  }
+
+  input#mail {
+    margin-top: 7%;
+    height: 45px;
+    margin-left: 21%;
+    width: 60%;
+  }
+
+  select#user-roles {
+    margin-top: 7%;
+    height: 45px;
+    margin-left: 21%;
+    width: 60%;
+  }
+
+  input#pswd {
+    margin-top: 7%;
+    height: 45px;
+    margin-left: 21%;
+    width: 60%;
+  }
+
+  input#add {
+    margin-top: 10%;
+    height: 45px;
+    margin-left: 21%;
+    width: 60%;
+  }
+
+  .footer-journey {
+    text-align: center;
+    padding-top: 3%;
+  }
+
+  .sign-icon {
+    margin-left: 72%;
+    margin-top: -34px;
+  }
+
+  p.dashboard_home {
+    margin: 0px 0px 0px 0px;
+  }
+
+  p.dashboard_blood {
+    margin: 0px 0px 0px 0px;
+  }
+
+  p.dashboard_requests {
+    margin: 0px 0px 0px 0px;
+  }
+
+  p.dashboard_view {
+    margin: 0px 0px 0px 0px;
+  }
+
+  p.dashboard_contact {
+    margin: 0px 0px 0px 0px;
+  }
+
+  p.dashboard_name {
+    margin: 0px 0px 0px 0px;
+  }
+
+  ul.navbar-nav.me-auto.mb-2.mb-lg-0 {
+    margin: 8px 0px 0px 1%;
+  }
+
+  video#dashboardVideo {
+    width: 100%;
+  }
+
+  textarea.blood-info-text {
+    width: 69%;
+    margin-top: 7%;
+  }
+
+  .blood-info-submit {
+    text-align: center;
+    margin-top: 7%;
+  }
+
+  button.blood-info-btn.btn.btn-outline-info {
+    width: 25%;
+    height: 84px;
+    border-radius: 15px;
+    margin: 2% 0px 0px 39%;
+  }
+
+  button.btn.btn-primary.contact-btn {
+    width: 22%;
+    height: 50px;
+    border-radius: 50px;
+    margin: 3% 0px 25px 40%;
+  }
+
+  .blood-sample {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: calc(58.33% - -69px);
+    background-color: #f9f9f9;
+  }
+
+  .blood-sample-details {
+    margin: 8% 0px 0px 11%;
+  }
+
+  input#first-a {
+    width: 59%;
+    height: 43px;
+    margin-left: 21%;
+    margin-top: 2%;
+  }
+
+  input#last-a {
+    width: 59%;
+    height: 43px;
+    margin-left: 21%;
+    margin-top: 7%;
+  }
+
+  input#type-a {
+    width: 59%;
+    height: 43px;
+    margin-left: 21%;
+    margin-top: 7%;
+  }
+
+
+  input#number-a {
+    width: 59%;
+    height: 43px;
+    margin-left: 22%;
+    margin-top: 7%;
+  }
+
+  .a-btn {
+    margin: 2% 0px 0px 19%;
+}
+
+
+
+}
